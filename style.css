@@ -1,4 +1,62 @@
 body{
     background: cyan;
     border: 20px;
+    font-family: Arial, sans-serif;
     }
+
+.menu{
+    color:blue;
+    text-align:center;
+    padding:10px;
+    margin:auto;
+    list-style-type: none;
+    display: flex;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10 px 20px;
+    background-color: hsl(207, 75%, 44%);
+    margin: 0px;
+    display: inline-block;
+    border: 5px;
+    transition: background-color 0.3;
+    border-color: black;
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+.menu a:hover {
+    background-color: hsl(207, 75%, 23%);
+}
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(5, 24, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #142331;
+
+}
+
+
+button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(5, 24, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(95, 137, 161);
+}
+
+.box {
+    height: 250px;
+    background-color: rgb(104, 229, 248);
+    padding: 70px;
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 10px;
+    border: 6px solid rgb(0, 41, 175);
+}
